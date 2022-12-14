@@ -1,12 +1,12 @@
 [
   [
-    numero_telaio: PRIMARY KEY - NOT NULL
+    numero_telaio: PRIMARY KEY - INT - NOT NULL
     marca: VARCHAR(20) - NOT NULL
     modello: VARCHAR(50) - NOT NULL
     anno_immatricolazione: YEAR - NOT NULL
     cilindrata: INT - NOT NULL
-    alimentazione: 
-    colore:
+    alimentazione: VARCHAR(10) - NOT NULL
+    colore: VARCHAR(30) - NULL
     disponibilità: TINYINT - DEFAULT(1)
   ]
 ]
