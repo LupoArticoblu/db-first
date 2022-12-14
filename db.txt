@@ -1,0 +1,12 @@
+[
+  [
+    numero_telaio: PRIMARY KEY - NOT NULL
+    marca: VARCHAR(20) - NOT NULL
+    modello: VARCHAR(50) - NOT NULL
+    anno_immatricolazione: YEAR - NOT NULL
+    cilindrata: INT - NOT NULL
+    alimentazione: 
+    colore:
+    disponibilità: TINYINT - DEFAULT(1)
+  ]
+]
